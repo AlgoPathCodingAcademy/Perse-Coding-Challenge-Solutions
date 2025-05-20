@@ -20,8 +20,7 @@ visited[start] = True
 to_do_list = deque()
 to_do_list.append(start)
 
-# Important! Direction matters!
-directions = [(-1,0),(0,1),(0,-1),(1,0)]
+directions = [(-1,0),(0,-1),(1,0),(0,1)]
 
 counter = 1
 
